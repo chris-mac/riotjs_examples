@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/chris-mac/riotjs_examples/issues"
   },
-  "homepage": "https://github.com/chris-mac/riotjs_examples#readme"
+  "homepage": "https://github.com/chris-mac/riotjs_examples#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "riot": "^2.3.18",
+    "swig": "^1.4.2"
+  }
 }
