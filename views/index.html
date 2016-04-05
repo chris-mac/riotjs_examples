@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Riot JS Server side rendering</title>
+</head>
+  <body>
+    <h1>Howdee</h1>
+    <hello-tag></hello-tag>
+   <my-tag greetee="bob"></my-tag>
+    <my-tag greetee="frank"></my-tag>
+    <my-tag></my-tag>
+    <my-listtag></my-listtag>
+    <to-do></to-do>
+    <to-do2></to-do2>
+    <script src="https://cdn.jsdelivr.net/riot/2.3.17/riot+compiler.min.js"></script>
+    <!--If we are using runtime compilation we can use the riot/tag type-->
+    <script src="my-tag.tag" type="riot/tag"></script>
+    <script>
+    //We can pass either objects or functions through the riot mount command
+    riot.mount('my-tag', { greetee: 'John Doe' })
+    mylist = [
+     {name: 'bob'},
+     {name: 'frank'}
+    ] 
+    riot.mount('my-listtag', {list: mylist})
+    riot.mount('to-do')
+    riot.mount('to-do2')
+    riot.mount('hello-tag', {greeting: 'Gooday'})
+    </script>
+  </body>
+</html>
+

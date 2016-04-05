@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic tag with runtime compilation</title>
+  </head>
+  <body>
+    <h1>Basic tag with runtime compilation</h1>
+    <!--RiotJS tags at the most basic format include three elements, the custom html tag in the body, the tag or JS inserted in a script tag and the riot.mount command-->
+    <!--Our custom HTML tag inserted like any other HTML tag-->
+    <basic-tag></basic-tag>
+    <!--The RiotJS library including the compiler-->
+    <script src="https://cdn.jsdelivr.net/riot/2.3.17/riot+compiler.min.js"></script>
+    <!--If we are using runtime compilation we can use the riot/tag type and insert in a script tag-->
+    <script src="tags/basic-tag.tag" type="riot/tag"></script>
+    <script>
+    //We can mount the individual tag as in the example below or mount all tags using riot.mount(*)
+    riot.mount('basic-tag');
+    </script>
+  </body>
+</html>
+
