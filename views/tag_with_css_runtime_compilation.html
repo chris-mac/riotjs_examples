@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tag with CSS and runtime compilation</title>
+  </head>
+  <body>
+    <h1>Tag with CSS and runtime compilation</h1>
+    <tag-withcss></tag-withcss>
+    <!--The RiotJS library including the compiler-->
+    <script src="https://cdn.jsdelivr.net/riot/2.3.17/riot+compiler.min.js"></script>
+    <script src="tags/tag-withcss.tag" type="riot/tag"></script>
+    <script>
+    riot.mount('tag-withcss');
+    </script>
+  </body>
+</html>
+
