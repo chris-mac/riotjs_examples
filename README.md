@@ -6,6 +6,7 @@ We start with a basic project using a node server running on port 3000, express 
 
 To get started
 
+..*
 -clone the repo
 -npm install
 -node app.js
