@@ -6,11 +6,11 @@ We start with a basic project using a node server running on port 3000, express 
 
 To get started
 
-..*
--clone the repo
--npm install
--node app.js
--visit {my__ip}:3000/{my_example_url}
+
+- clone the repo
+- npm install
+- node app.js
+- visit {my__ip}:3000/{my_example_url}
 
 I have tried to keep clean separation between tags so we can introduce gradual complexity, each tag demonstrating only one new core principle
 
