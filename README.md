@@ -16,7 +16,7 @@ I have tried to keep clean separation between tags so we can introduce gradual c
 
 Each of the pages are verbosely but semantically named, the order of examples is below:-
 
-page: basic_tag_with_runtime_compilation.html tag: basic_tag.tag
-page: tag_with_css_runtime_compilation.html tag: tag-withcss.tag
-page: tag_with_object_runtime_compilation.html tag: tag-withobject.tag
+- page: basic_tag_with_runtime_compilation.html tag: basic_tag.tag
+- page: tag_with_css_runtime_compilation.html tag: tag-withcss.tag
+- page: tag_with_object_runtime_compilation.html tag: tag-withobject.tag
 
